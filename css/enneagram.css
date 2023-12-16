@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'cafe24';
+    src: url('../font/Cafe24SsurroundAir.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'cafe24', serif;
+    font-size: 1.6rem;
+}
+
+h1 {
+    font-size: 3.0rem;
+}
+
+h2 {
+    font-size: 2.6rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+}
+h4 {
+    font-size: 2.2rem;
+}
+h5 {
+    font-size: 2.0rem;
+}
+h6 {
+    font-size: 1.8rem;
+}
+
+ul, ol {
+    list-style: none;
+    width: 100%;
+}
+
+ul li, ol li {
+    padding: 3px 0px 3px 3px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #efefef;
+    font-size: 1.4rem ;
+}
+
+ul li:before,
+ol li:before {
+    content: "⚬";
+    /*display: inline-block;*/
+    vertical-align: middle;
+    padding: 3px 5px 6px 0px;
+}
+
+.quotation {
+    margin: 1rem;
+    padding: 1.25rem;
+    background: lightgrey;
+    border-radius: 1.5rem;
+}
+
+p {
+    margin-bottom: 0rem;
+}
+
+.icon-positive-vote {
+    margin-right: 0.5rem;
+    margin-bottom: 0.25rem;
+    height: 2rem;
+    width: 2rem;
+    /* Other styles here */
+}
+
+.icon-negative-vote {
+    margin-right: 0.5rem;
+    margin-bottom: 0.25rem;
+    height: 2rem;
+    width: 2rem;
+    /* Other styles here */
+}

@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  enneagram_web_server:
+    user: "root"
+    image: httpd:alpine
+    restart: always
+    ports:
+      - "8000:80"
+    volumes:
+      - /Users/ysy/WebstormProjects/enneagram_webview:/usr/local/apache2/htdocs
