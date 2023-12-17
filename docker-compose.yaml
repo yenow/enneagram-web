@@ -8,4 +8,4 @@ services:
     ports:
       - "8000:80"
     volumes:
-      - /Users/ysy/WebstormProjects/enneagram_webview:/usr/local/apache2/htdocs
+      - /app/enneagram_webview:/usr/local/apache2/htdocs
