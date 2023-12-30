@@ -8,4 +8,4 @@ services:
     ports:
       - "8000:80"
     volumes:
-      - /app/enneagram_webview:/usr/local/apache2/htdocs
+      - ./:/usr/local/apache2/htdocs
